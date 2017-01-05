@@ -1,0 +1,64 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #e6e6e6;
+    font-size: 16px;
+}
+
+.navbar .navbar-right {
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+}
+
+.navbar .navbar-nav {
+    letter-spacing: -1px;
+    font-size: 1.125em;
+}
+
+.background-cover{
+    background: url('https://images.unsplash.com/photo-1468345096048-fdb10393b472') center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}    
+
+.site-wrapper {
+    display: table;
+}
+
+.site-wrapper-inner {
+    display: table-cell;
+    vertical-align: bottom;
+    text-align: center;
+
+}
+
+.intro-content{
+    padding-top: 15%;
+}
+
+h1, h3 {
+    font-weight: 600;
+    text-shadow: 0 3px 3px rgba(0,0,0,0.4),
+                 0 9px 18px rgba(46,8,84,0.3),
+                 0 12px 24px rgba(0,0,0,0.3);
+}
+
+h1 {
+    font-size: 5rem;
+    text-transform: lowercase;
+    letter-spacing: 7px;
+}
+
+hr {
+    width: 425px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
